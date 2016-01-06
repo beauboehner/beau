@@ -1,0 +1,15 @@
+name = Beaustrap
+description = 2015 Redesign
+core = 7.x
+version = 7.x-0.1-beta
+
+stylesheets[all][] = stylesheets/style.css
+
+scripts[] = js/script.js
+
+regions[header] = 'Header'
+regions[menu] = 'Menu'
+regions[hero] = 'Hero'
+regions[content] = 'Content'
+regions[bottom] = 'Bottom Content'
+regions[footer] = 'Footer'
