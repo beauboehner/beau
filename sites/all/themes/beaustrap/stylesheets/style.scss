@@ -5,3 +5,103 @@
 @import "neat/neat";
 @import "base/base";
 
+/** Fonts **/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
+
+/* Font Calls
+
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+  color: #FFF;
+}
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  color: #FFF;
+}
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  color: #FFF;
+}
+p {
+  padding: 2px 20px;
+  font-family: 'Merriweather', serif;
+}
+
+
+#header {
+  #content-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -400px;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    min-height: 480px;
+    .main_title {
+      font-family: 'Montserrat', sans-serif;
+      position: relative;
+      padding: 75px 0 27px 75px;
+      font-size: 48px;
+      margin-bottom: 0px;
+      color: white;
+      @media (max-width: 792px) {
+        font-size: 32px;
+      }
+      @media (max-width: 480px) {
+        padding: 30px 0;
+        font-size: 28px;
+      }
+    }
+  }
+  .color-overlay {
+    background: rgba(0,145,178,.88);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0091b2+0,263685+100&amp;0.85+0,0.85+100 */
+    background: -moz-linear-gradient(left,  rgba(0,145,178,0.85) 0%, rgba(38,54,133,0.85) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,145,178,0.65)), color-stop(100%,rgba(38,54,133,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(0,145,178,0.65) 0%,rgba(38,54,133,0.65) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(0,145,178,0.65) 0%,rgba(38,54,133,0.65) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0,145,178,0.65) 0%,rgba(38,54,133,0.65) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0,145,178,0.65) 0%,rgba(38,54,133,0.65) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d90091b2', endColorstr='#d9263685',GradientType=1 ); /* IE6-9 */
+    min-height: 480px;
+  }
+  .front-header {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    width: 60%;
+    padding-right: 75px;
+    text-align: right;
+  }
+}
+
+#footer {
+  background: #333;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b2bd9+0,5a2b7d+100&amp;0.8+0,0.8+100 */
+  background: -moz-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(15, 15, 15, 0.8)), color-stop(100%, rgba(25, 25, 25, 0.8))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* IE10+ */
+  background: linear-gradient(to right, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc9b2bd9', endColorstr='#cc5a2b7d', GradientType=1); /* IE6-9 */
+  overflow: hidden;
+  z-index: 2;
+  min-height: 450px;
+  p {
+    color: #FFF;
+  }
+}
