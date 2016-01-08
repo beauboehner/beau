@@ -91,12 +91,13 @@ ul {
   }
   .front-header {
     position: absolute;
-    top: 200px;
+    top: 90px;
     right: 0;
     width: 60%;
     padding-right: 75px;
     text-align: right;
     color: #FFF;
+    h3 { margin: 0 0 8px; }
   }
 }
 
@@ -131,7 +132,56 @@ ul {
   .views-row {
     display: inline-table;
     padding: 20px;
+    position: relative;
   }
+  .overlay {
+    display: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background: #333;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b2bd9+0,5a2b7d+100&amp;0.8+0,0.8+100 */
+    background: -moz-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(15, 15, 15, 0.8)), color-stop(100%, rgba(25, 25, 25, 0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc9b2bd9', endColorstr='#cc5a2b7d', GradientType=1); /* IE6-9 */
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    top: 51px;
+    left: 20px;
+    width: 480px;
+    min-height: 330px;
+    .work-creds {
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 100%;
+      text-align: left;
+    }
+    .work-link {
+      position: absolute;
+      bottom: 8px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+    }
+    a {
+      color: #FFF;
+      &:hover {
+        color: #767676;
+      }
+    }
+    ul {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      li { padding: 5px 0; }
+    }
+  }
+  img {box-shadow: 3px 3px 8px #333; height: 330px; }
 }
 
 #footer {
@@ -147,9 +197,7 @@ ul {
   overflow: hidden;
   z-index: 2;
   min-height: 450px;
-  p {
-    color: #FFF;
-  }
+  p { color: #FFF; }
 
   // LOGIN BLOCK
   #block-user-login {
