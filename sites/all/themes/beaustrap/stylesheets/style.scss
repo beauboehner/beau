@@ -197,7 +197,8 @@ ul {
   overflow: hidden;
   z-index: 2;
   min-height: 450px;
-  p { color: #FFF; }
+  p { color: #FFF; font-size: 10px; }
+  img { padding: 0 20px; }
 
   // LOGIN BLOCK
   #block-user-login {

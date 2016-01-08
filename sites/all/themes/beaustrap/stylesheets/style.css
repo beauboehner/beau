@@ -398,7 +398,10 @@ ul {
   z-index: 2;
   min-height: 450px; }
   #footer p {
-    color: #FFF; }
+    color: #FFF;
+    font-size: 10px; }
+  #footer img {
+    padding: 0 20px; }
   #footer #block-user-login {
     margin: 0 auto;
     padding-left: 50px;
