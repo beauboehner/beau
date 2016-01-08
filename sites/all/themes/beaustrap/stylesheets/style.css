@@ -223,9 +223,10 @@ h3 {
 
 p {
   padding: 2px 20px;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Merriweather', serif; }
 
 ul {
+  font-family: 'Merriweather', serif;
   list-style: disc;
   padding: 2px 20px; }
   ul li {
