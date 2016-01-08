@@ -51,6 +51,7 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <link rel="stylesheet" href="/sites/all/themes/beaustrap/fonts/font-awesome/css/font-awesome.min.css">
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">

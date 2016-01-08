@@ -21,23 +21,33 @@ body {
   padding: 0;
 }
 h1 {
-  font-family: 'Merriweather', serif;
+  padding: 2px 20px;
+  font-family: 'Montserrat', sans-serif;
   font-size: 48px;
-  color: #FFF;
 }
 h2 {
-  font-family: 'Merriweather', serif;
+  padding: 2px 20px;
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
-  color: #FFF;
 }
 h3 {
-  font-family: 'Merriweather', serif;
+  padding: 2px 20px;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
-  color: #FFF;
 }
 p {
   padding: 2px 20px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+ul {
+  list-style: disc;
+  padding: 2px 20px;
+  li {
+    margin-left: 40px;
+  }
+}
+.block {
+  padding: 20px 0;
 }
 
 
@@ -52,11 +62,11 @@ p {
     min-height: 480px;
     .main_title {
       font-family: 'Montserrat', sans-serif;
+      color: #FFF;
       position: relative;
       padding: 75px 0 27px 75px;
-      font-size: 48px;
-      margin-bottom: 0px;
-      color: white;
+      font-size: 60px;
+      margin-bottom: 0;
       @media (max-width: 792px) {
         font-size: 32px;
       }
@@ -85,6 +95,32 @@ p {
     width: 60%;
     padding-right: 75px;
     text-align: right;
+    color: #FFF;
+  }
+}
+
+#main-wrapper {
+  margin: 0 auto;
+}
+#content {
+  padding: 10px 0;
+}
+
+.front .websites-block {
+  display: block;
+  background: rgba(0, 178, 24, 0.85);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0091b2+0,263685+100&amp;0.85+0,0.85+100 */
+  background: -moz-linear-gradient(left,  rgba(0, 178, 24, 0.85) 0%, rgba(3, 133, 46, 0.85) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0, 178, 24, 0.85)), color-stop(100%,rgba(3, 133, 46, 0.85))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  rgba(0, 178, 24, 0.85) 0%,rgba(3, 133, 46, 0.85) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  rgba(0, 178, 24, 0.85) 0%,rgba(3, 133, 46, 0.85) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  rgba(0, 178, 24, 0.85) 0%,rgba(3, 133, 46, 0.85) 100%); /* IE10+ */
+  background: linear-gradient(to right,  rgba(0, 178, 24, 0.85) 0%,rgba(3, 133, 46, 0.85) 100%); /* W3C */
+}
+.front .view-websites {
+  .views-row {
+    //float: left;
+    padding: 20px;
   }
 }
 
@@ -103,5 +139,24 @@ p {
   min-height: 450px;
   p {
     color: #FFF;
+  }
+
+  // LOGIN BLOCK
+  #block-user-login {
+    margin: 0 auto;
+    padding-left: 50px;
+    width: 100%;
+    h2 { display: none; }
+    label { color: #FFF; display: inline; font-size: 0.5em; }
+    .form-type-textfield, .form-type-password {
+      display: block;
+    }
+    .form-type-textfield input, .form-type-password input {
+      display: inline;
+      width: 25%;
+      padding: 0.15em;
+    }
+    .item-list { display: none; }
+    .form-actions input { padding: 8px 10px; font-size: 0.5em; }
   }
 }
