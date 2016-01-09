@@ -35,6 +35,11 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
 }
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+}
+
 p {
   padding: 2px 20px 2px 75px;
   font-family: 'Merriweather', serif;
@@ -86,7 +91,6 @@ ul {
     background: -o-linear-gradient(left,  rgba(0,145,178,0.65) 0%,rgba(38,54,133,0.65) 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(left,  rgba(0,145,178,0.65) 0%,rgba(38,54,133,0.65) 100%); /* IE10+ */
     background: linear-gradient(to right,  rgba(0,145,178,0.65) 0%,rgba(38,54,133,0.65) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d90091b2', endColorstr='#d9263685',GradientType=1 ); /* IE6-9 */
     min-height: 480px;
   }
   .front-header {
@@ -124,7 +128,6 @@ ul {
   background: -o-linear-gradient(left,  rgba(53, 17, 217, 0.8) 0%,rgba(90,43,125,0.8) 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(left,  rgba(53, 17, 217, 0.8) 0%,rgba(90,43,125,0.8) 100%); /* IE10+ */
   background: linear-gradient(to right,  rgba(53, 17, 217, 0.8) 0%,rgba(90,43,125,0.8) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc9b2bd9', endColorstr='#cc5a2b7d',GradientType=1 ); /* IE6-9 */
 }
 .front .view-websites {
   margin: 0 auto;
@@ -147,7 +150,6 @@ ul {
     background: -o-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* IE10+ */
     background: linear-gradient(to right, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc9b2bd9', endColorstr='#cc5a2b7d', GradientType=1); /* IE6-9 */
     overflow: hidden;
     z-index: 2;
     position: absolute;
@@ -182,6 +184,111 @@ ul {
     }
   }
   img {box-shadow: 3px 3px 8px #333; height: 330px; }
+}
+
+.front .webform-client-form-140 {
+  margin: 0 auto;
+  width: 75%;
+  input.webform-submit {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.front-travel-photog {
+  background-image:url('../images/headers/header6.jpg');
+  background-position: center center;
+  .overlay {
+    background: rgba(53, 17, 217, 0.8);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b2bd9+0,5a2b7d+100&amp;0.8+0,0.8+100 */
+    background: -moz-linear-gradient(left,  rgba(217, 18, 2, 0.8) 0%, rgba(217, 122, 2, 0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(217, 18, 2, 0.8)), color-stop(100%, rgba(217, 122, 2, 0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(217, 18, 2, 0.8) 0%, rgba(217, 122, 2, 0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(217, 18, 2, 0.8) 0%, rgba(217, 122, 2, 0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(217, 18, 2, 0.8) 0%, rgba(217, 122, 2, 0.8) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(217, 18, 2, 0.8) 0%, rgba(217, 122, 2, 0.8) 100%); /* W3C */
+  }
+}
+.front-state-capitols {
+  background-image:url('../images/indiana-bg.jpg');
+  background-position: 400px 0;
+  .overlay {
+    background: rgba(53, 17, 217, 0.8);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b2bd9+0,5a2b7d+100&amp;0.8+0,0.8+100 */
+    background: -moz-linear-gradient(left,  rgba(53, 17, 217, 0.8) 0%, rgba(90,43,125,0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(53, 17, 217, 0.8)), color-stop(100%,rgba(90,43,125,0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(53, 17, 217, 0.8) 0%,rgba(90,43,125,0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(53, 17, 217, 0.8) 0%,rgba(90,43,125,0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0, 128, 217, 0.8) 0%, rgba(53, 17, 217, 0.8) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0, 128, 217, 0.8) 0%, rgba(24, 125, 67, 0.8) 100%); /* W3C */
+  }
+}
+.front-travel-photog, .front-state-capitols {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  float: left;
+  width: 50%;
+  color: #FFF;
+  min-height: 480px;
+  position: relative;
+  .overlay {
+    min-height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  h2 {
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top: 100px;
+  }
+  input {
+    display: block;
+    margin: 35px auto 0;
+  }
+}
+
+.front-fall-countdown {
+  clear: both;
+  background-image:url('../images/headers/header7.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FFF;
+  min-height: 350px;
+  //position: relative;
+  .overlay {
+    background: rgba(53, 17, 217, 0.8);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b2bd9+0,5a2b7d+100&amp;0.8+0,0.8+100 */
+    background: -moz-linear-gradient(left,  rgba(217, 59, 0, 0.8) 0%, rgba(217, 161, 7, 0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(217, 59, 0, 0.8)), color-stop(100%, rgba(217, 161, 7, 0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(217, 59, 0, 0.8) 0%, rgba(217, 161, 7, 0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(217, 59, 0, 0.8) 0%, rgba(217, 161, 7, 0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(217, 59, 0, 0.8) 0%, rgba(217, 161, 7, 0.8) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(217, 59, 0, 0.8) 0%, rgba(217, 161, 7, 0.8) 100%); /* W3C */
+    width: 100%;
+    min-height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  h2 {
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top: 100px;
+  }
+  input {
+    display: block;
+    margin: 35px auto 0;
+  }
 }
 
 #footer {

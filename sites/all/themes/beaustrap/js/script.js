@@ -11,6 +11,13 @@
         }
     };
 
+    Drupal.behaviors.contactSubmit = {
+        attach: function (context, settings) {
+            $('.webform-client-form-140 input.webform-submit').prop('value', 'BOOSH!');
+        }
+    };
+
+
 })(jQuery, Drupal);
 
 
