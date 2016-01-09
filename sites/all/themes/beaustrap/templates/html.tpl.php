@@ -52,6 +52,7 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <link rel="stylesheet" href="/sites/all/themes/beaustrap/fonts/font-awesome/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
