@@ -24,16 +24,35 @@ h1 {
   padding: 2px 20px 2px 75px;
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
+  @media (max-width: 600px) {
+    padding: 2px 20px 2px 25px;
+  }
+  @media (max-width: 500px) {
+    padding: 5px;
+  }
 }
 h2 {
   padding: 2px 20px 2px 75px;
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
+  @media (max-width: 600px) {
+    padding: 2px 20px 2px 25px;
+    font-size: 28px;
+  }
+  @media (max-width: 500px) {
+    padding: 5px;
+  }
 }
 h3 {
   padding: 2px 20px 2px 75px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
+  @media (max-width: 600px) {
+    padding: 2px 20px 2px 25px;
+  }
+  @media (max-width: 500px) {
+    padding: 5px;
+  }
 }
 h4 {
   font-family: 'Merriweather', serif;
@@ -43,6 +62,12 @@ h4 {
 p {
   padding: 2px 20px 2px 75px;
   font-family: 'Merriweather', serif;
+  @media (max-width: 600px) {
+    padding: 2px 20px 2px 25px;
+  }
+  @media (max-width: 500px) {
+    padding: 5px;
+  }
 }
 ul {
   font-family: 'Merriweather', serif;
@@ -50,6 +75,12 @@ ul {
   padding: 2px 20px 2px 75px;
   li {
     margin-left: 40px;
+  }
+  @media (max-width: 600px) {
+    padding: 2px 20px 2px 25px;
+  }
+  @media (max-width: 500px) {
+    padding: 5px;
   }
 }
 input[type="submit"] {
@@ -108,12 +139,27 @@ input[type="submit"] {
   .front-header {
     position: absolute;
     top: 90px;
+    width: 80%;
     right: 0;
-    width: 60%;
     padding-right: 75px;
     text-align: right;
     color: #FFF;
-    h3 { margin: 0 0 8px; }
+    h3 {
+      margin: 0 0 8px;
+      @media (max-width: 840px) {
+        font-size: 19px;
+      }
+      @media (max-width: 500px) {
+        font-size: 15px;
+        margin: 0 0 0;
+      }
+    }
+    @media (max-width: 600px) {
+      width: 100%;
+      top: 120px;
+      left: 0;
+      text-align: left;
+    }
   }
 }
 
@@ -122,11 +168,20 @@ input[type="submit"] {
 }
 #content {
   padding: 10px 0;
+  @media (max-width: 840px) {
+    padding: 0;
+  }
 }
 .content {
   margin: 0 auto;
   padding: 0 20px;
   width: 90%;
+  @media (max-width: 840px) {
+    width: 100%;
+  }
+  @media (max-width: 400px) {
+    padding: 0 5px;
+  }
 }
 
 .contact-logos {
@@ -156,6 +211,9 @@ input[type="submit"] {
     display: inline-table;
     padding: 20px;
     position: relative;
+    @media (max-width: 560px) {
+      padding: 5px;
+    }
   }
   .overlay {
     display: none;
@@ -183,6 +241,13 @@ input[type="submit"] {
       left: 0;
       width: 100%;
       text-align: left;
+      @media (max-width: 560px) {
+        display: block;
+        background: none;
+        position: relative;
+        top: 0;
+        left: 0;
+      }
     }
     .work-link {
       position: absolute;
@@ -190,6 +255,13 @@ input[type="submit"] {
       left: 0;
       width: 100%;
       text-align: center;
+      @media (max-width: 560px) {
+        display: block;
+        background: none;
+        position: relative;
+        top: 0;
+        left: 0;
+      }
     }
     a {
       color: #FFF;
@@ -202,8 +274,24 @@ input[type="submit"] {
       font-size: 20px;
       li { padding: 5px 0; }
     }
+    @media (max-width: 560px) {
+      display: block;
+      background: none;
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 0;
+    }
   }
-  img {box-shadow: 3px 3px 8px #333; height: 330px; }
+  img {
+    box-shadow: 3px 3px 8px #333;
+    height: 330px;
+    @media (max-width: 500px) {
+      width: 100%;
+      height: auto;
+    }
+  }
 }
 
 .front .webform-client-form-140 {
@@ -241,6 +329,9 @@ input[type="submit"] {
 .front-state-capitols {
   background-image:url('../images/indiana-bg.jpg');
   background-position: 400px 0;
+  @media (max-width: 840px) {
+    background-position: center center;
+  }
   .overlay {
     background: rgba(3, 104, 38, 0.8);
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b2bd9+0,5a2b7d+100&amp;0.8+0,0.8+100 */
@@ -275,10 +366,18 @@ input[type="submit"] {
     font-size: 1.5em;
     line-height: 1.5em;
     margin-top: 100px;
+    @media (max-width: 1020px) {
+      font-size: 1em;
+      margin-top: 50px;
+    }
   }
   input {
     display: block;
     margin: 35px auto 0;
+  }
+  @media (max-width: 840px) {
+    float: none;
+    width: 100%;
   }
 }
 
@@ -291,7 +390,7 @@ input[type="submit"] {
   background-attachment: fixed;
   color: #FFF;
   min-height: 350px;
-  //position: relative;
+  position: relative;
   .overlay {
     background: rgba(217, 18, 2, 0.8);
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b2bd9+0,5a2b7d+100&amp;0.8+0,0.8+100 */
@@ -314,11 +413,22 @@ input[type="submit"] {
     font-size: 1.5em;
     line-height: 1.5em;
     margin-top: 100px;
+    @media (max-width: 730px) {
+      font-size: 1em;
+      margin-top: 50px;
+    }
   }
   input {
     display: block;
     margin: 35px auto 0;
   }
+}
+
+.block-button-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
 }
 
 #footer {
@@ -330,7 +440,6 @@ input[type="submit"] {
   background: -o-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(left, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* IE10+ */
   background: linear-gradient(to right, rgba(15, 15, 15, 0.8) 0%, rgba(25, 25, 25, 0.8) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc9b2bd9', endColorstr='#cc5a2b7d', GradientType=1); /* IE6-9 */
   overflow: hidden;
   z-index: 2;
   min-height: 450px;

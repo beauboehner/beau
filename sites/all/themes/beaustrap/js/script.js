@@ -27,10 +27,16 @@
     // Hover Effect on Website blocks
     Drupal.behaviors.workHover = {
         attach: function (context, settings) {
-            $('.front .view-websites .views-row').hover(
-                function() { $(this).find('div.overlay').slideDown("fast"); },
-                function() { $(this).find('div.overlay').slideUp("fast"); }
-            );
+            if (screen.width > 560) {
+                $('.front .view-websites .views-row').hover(
+                    function () {
+                        $(this).find('div.overlay').slideDown("fast");
+                    },
+                    function () {
+                        $(this).find('div.overlay').slideUp("fast");
+                    }
+                );
+            }
         }
     };
 

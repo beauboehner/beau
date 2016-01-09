@@ -54,9 +54,11 @@
 
         <div class="content"<?php print $content_attributes; ?>>
             <?php print $content ?>
-            <form action="/fall">
-                <input type="submit" value="View Countdown">
-            </form>
+            <div class="block-button-wrapper">
+                <form action="/fall">
+                    <input type="submit" value="View Countdown">
+                </form>
+            </div>
         </div>
     </div>
 </div>

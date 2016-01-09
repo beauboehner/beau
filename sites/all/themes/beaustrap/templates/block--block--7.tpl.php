@@ -54,9 +54,11 @@
 
         <div class="content"<?php print $content_attributes; ?>>
             <?php print $content ?>
-            <form action="/state-capitols">
-                <input type="submit" value="View Gallery">
-            </form>
+            <div class="block-button-wrapper">
+                <form action="/state-capitols">
+                    <input type="submit" value="View Gallery">
+                </form>
+            </div>
         </div>
     </div>
 </div>
