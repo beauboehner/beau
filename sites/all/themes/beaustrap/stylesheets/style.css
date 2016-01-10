@@ -668,7 +668,7 @@ input[type="submit"] {
     text-align: center; }
     @media (max-width: 560px) {
       .view-photo-gallery .views-row, .view-state-capitols .views-row {
-        padding: 5px; } }
+        padding: 20px 5px; } }
     .view-photo-gallery .views-row h3, .view-state-capitols .views-row h3 {
       padding: 0; }
     .view-photo-gallery .views-row span, .view-state-capitols .views-row span {
