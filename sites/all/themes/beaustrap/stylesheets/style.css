@@ -677,4 +677,12 @@ input[type="submit"] {
       width: 100%;
       height: auto; }
 
+/** Fall Countdown Page **/
+body.page-node-117 .field-name-body,
+body.page-node-117 .field-type-field-countdown {
+  text-align: center;
+  font-size: 24px; }
+body.page-node-117 .europe-vid {
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

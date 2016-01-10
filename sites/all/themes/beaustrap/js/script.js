@@ -47,8 +47,14 @@
         }
     };
 
-/**** Nothing Below Here ****/
+    Drupal.behaviors.fallEurope = {
+        attach: function (context, settings) {
+            var finalCountdown = '<div class="europe-vid"><iframe width="420" height="315" src="https://www.youtube.com/embed/9jK-NcRmVcw" frameborder="0" allowfullscreen></iframe></div>';
+            $('.page-node-117 .field-name-body').after(finalCountdown);
+        }
+    };
+
+    /**** Nothing Below Here ****/
 
 })(jQuery, Drupal);
-
 
