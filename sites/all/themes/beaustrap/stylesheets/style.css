@@ -302,6 +302,9 @@ input[type="submit"] {
     .content {
       padding: 0 5px; } }
 
+#header .breadcrumb {
+  display: none; }
+
 #breadcrumb {
   text-align: center;
   margin-top: 1em;
