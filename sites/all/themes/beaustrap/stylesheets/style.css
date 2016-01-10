@@ -662,7 +662,7 @@ input[type="submit"] {
   text-align: center; }
   .view-photo-gallery .views-row, .view-state-capitols .views-row {
     display: inline-table;
-    padding: 10px;
+    padding: 20px 10px;
     position: relative;
     font-family: 'Merriweather', sans-serif;
     text-align: center; }
