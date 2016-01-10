@@ -1,5 +1,5 @@
 /***** BeauStrap -- Redesign 2016 *****/
-/** Alright, Murray, let's do it... **/
+/** Alright, do it 'em, Murray... **/
 /*** IMPORT DEPENDENCIES ***/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
@@ -302,6 +302,30 @@ input[type="submit"] {
     .content {
       padding: 0 5px; } }
 
+#breadcrumb {
+  text-align: center;
+  margin-top: 1em;
+  font-family: 'Montserrat', serif; }
+  #breadcrumb .breadcrumb {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid #0080d9;
+    border-radius: 4px;
+    padding: 0; }
+    #breadcrumb .breadcrumb a, #breadcrumb .breadcrumb i {
+      color: #0080d9;
+      text-transform: uppercase;
+      vertical-align: middle;
+      padding: 12px 0; }
+    #breadcrumb .breadcrumb:hover {
+      background-color: #0080d9; }
+      #breadcrumb .breadcrumb:hover a, #breadcrumb .breadcrumb:hover i {
+        color: #FFF; }
+    #breadcrumb .breadcrumb i {
+      padding-right: 5px; }
+
 #header #content-header {
   background-repeat: no-repeat;
   background-size: cover;
@@ -477,30 +501,6 @@ input[type="submit"] {
         width: 100%;
         height: auto; } }
 
-.front .webform-client-form-140 {
-  margin: 0 auto;
-  width: 75%; }
-  .front .webform-client-form-140 label {
-    font-family: 'Merriweather', serif; }
-  .front .webform-client-form-140 input.webform-submit {
-    display: block;
-    margin: 0 auto;
-    background-color: transparent;
-    border: 2px solid #0080d9;
-    border-radius: 4px;
-    color: #0080d9;
-    text-transform: uppercase; }
-    .front .webform-client-form-140 input.webform-submit:hover {
-      background-color: #0080d9;
-      color: #FFF; }
-  .front .webform-client-form-140 .captcha {
-    background: none;
-    border: none;
-    margin: 0;
-    padding: 0; }
-    .front .webform-client-form-140 .captcha legend, .front .webform-client-form-140 .captcha .fieldset-description {
-      display: none; }
-
 .front-travel-photog {
   background-image: url("../images/headers/header6.jpg");
   background-position: center center; }
@@ -617,6 +617,32 @@ input[type="submit"] {
   .front-fall-countdown input {
     display: block;
     margin: 35px auto 0; }
+
+.front .webform-client-form-140 {
+  margin: 0 auto;
+  width: 75%; }
+  .front .webform-client-form-140 label {
+    font-family: 'Merriweather', serif; }
+  .front .webform-client-form-140 input.webform-submit {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 2px solid #0080d9;
+    border-radius: 4px;
+    color: #0080d9;
+    text-transform: uppercase; }
+    .front .webform-client-form-140 input.webform-submit:hover {
+      background-color: #0080d9;
+      color: #FFF; }
+  .front .webform-client-form-140 .captcha {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0; }
+    .front .webform-client-form-140 .captcha legend, .front .webform-client-form-140 .captcha .fieldset-description {
+      display: none; }
+    .front .webform-client-form-140 .captcha span.field-prefix {
+      font-family: 'Montserrat', serif; }
 
 /** Footer **/
 #footer {

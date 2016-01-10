@@ -1,6 +1,6 @@
 /***** BeauStrap -- Redesign 2016 *****/
 
-/** Alright, Murray, let's do it... **/
+/** Alright, do it 'em, Murray... **/
 
 /*** IMPORT DEPENDENCIES ***/
 @import "bourbon/bourbon";
@@ -122,7 +122,35 @@ input[type="submit"] {
     padding: 0 5px;
   }
 }
-
+#breadcrumb {
+  text-align: center;
+  margin-top: 1em;
+  font-family: 'Montserrat', serif;
+  .breadcrumb {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid #0080d9;
+    border-radius: 4px;
+    padding: 0;
+    a, i {
+      color: #0080d9;
+      text-transform: uppercase;
+      vertical-align: middle;
+      padding: 12px 0;
+    }
+    &:hover {
+      background-color: #0080d9;
+      a, i {
+        color: #FFF;
+      }
+    }
+    i {
+      padding-right: 5px;
+    }
+  }
+}
 
 #header {
   #content-header {
@@ -299,36 +327,6 @@ input[type="submit"] {
   }
 }
 
-.front .webform-client-form-140 {
-  margin: 0 auto;
-  width: 75%;
-  label {
-    font-family: 'Merriweather', serif;
-  }
-  input.webform-submit {
-    display: block;
-    margin: 0 auto;
-    background-color: transparent;
-    border: 2px solid #0080d9;
-    border-radius: 4px;
-    color: #0080d9;
-    text-transform: uppercase;
-    &:hover {
-      background-color: #0080d9;
-      color: #FFF;
-    }
-  }
-  .captcha {
-    background: none;
-    border: none;
-    margin: 0;
-    padding: 0;
-    legend, .fieldset-description {
-      display: none;
-    }
-  }
-}
-
 .front-travel-photog {
   background-image:url('../images/headers/header6.jpg');
   background-position: center center;
@@ -441,6 +439,39 @@ input[type="submit"] {
   }
 }
 
+.front .webform-client-form-140 {
+  margin: 0 auto;
+  width: 75%;
+  label {
+    font-family: 'Merriweather', serif;
+  }
+  input.webform-submit {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 2px solid #0080d9;
+    border-radius: 4px;
+    color: #0080d9;
+    text-transform: uppercase;
+    &:hover {
+      background-color: #0080d9;
+      color: #FFF;
+    }
+  }
+  .captcha {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    legend, .fieldset-description {
+      display: none;
+    }
+    span.field-prefix {
+      font-family: 'Montserrat', serif;
+    }
+  }
+}
+
 /** Footer **/
 
 #footer {
@@ -480,7 +511,6 @@ input[type="submit"] {
 
 
 /** Photo Gallery & State Capitols Page **/
-
 .view-photo-gallery, .view-state-capitols {
   display: block;
   margin: 0 auto;
