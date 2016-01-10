@@ -673,5 +673,8 @@ input[type="submit"] {
       padding: 0; }
     .view-photo-gallery .views-row span, .view-state-capitols .views-row span {
       font-size: 24px; }
+    .view-photo-gallery .views-row img, .view-state-capitols .views-row img {
+      width: 100%;
+      height: auto; }
 
 /*# sourceMappingURL=style.css.map */
