@@ -302,6 +302,9 @@ input[type="submit"] {
 .front .webform-client-form-140 {
   margin: 0 auto;
   width: 75%;
+  label {
+    font-family: 'Merriweather', serif;
+  }
   input.webform-submit {
     display: block;
     margin: 0 auto;
@@ -313,6 +316,15 @@ input[type="submit"] {
     &:hover {
       background-color: #0080d9;
       color: #FFF;
+    }
+  }
+  .captcha {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    legend, .fieldset-description {
+      display: none;
     }
   }
 }

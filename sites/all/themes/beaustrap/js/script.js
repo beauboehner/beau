@@ -40,6 +40,12 @@
         }
     };
 
+    Drupal.behaviors.skynetCheck = {
+        attach: function (context, settings) {
+            $('.webform-client-form-140 .captcha label').text('Are you Skynet???');
+        }
+    };
+
     // Change Text on Contact Form button
     Drupal.behaviors.contactSubmit = {
         attach: function (context, settings) {
