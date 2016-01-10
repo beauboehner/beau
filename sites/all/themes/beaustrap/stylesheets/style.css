@@ -682,12 +682,11 @@ body.page-node-117 .field-name-body,
 body.page-node-117 .field-type-field-countdown {
   text-align: center;
   font-size: 24px; }
-  @media (max-width: 450px) {
-    body.page-node-117 .field-name-body .countdownHolder,
-    body.page-node-117 .field-type-field-countdown .countdownHolder {
-      font-size: 28px; } }
 body.page-node-117 .europe-vid {
   width: 100%;
   text-align: center; }
+  @media (max-width: 450px) {
+    body.page-node-117 .europe-vid {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */
