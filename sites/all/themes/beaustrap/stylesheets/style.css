@@ -1,4 +1,5 @@
 /***** BeauStrap -- Redesign 2016 *****/
+/** Alright, Murray, let's do it... **/
 /*** IMPORT DEPENDENCIES ***/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
@@ -196,12 +197,7 @@ picture {
   max-width: 100%; }
 
 /** Fonts **/
-/* Font Calls
-
-font-family: 'Merriweather', serif;
-font-family: 'Montserrat', sans-serif;
-
-*/
+/** Sitewide Defaults **/
 body {
   margin: 0;
   padding: 0; }
@@ -280,6 +276,32 @@ input[type="submit"] {
 .block {
   padding: 20px 0; }
 
+.block-button-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 100%; }
+
+#main-wrapper {
+  margin: 0 auto; }
+
+#content {
+  padding: 10px 0; }
+  @media (max-width: 840px) {
+    #content {
+      padding: 0; } }
+
+.content {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 90%; }
+  @media (max-width: 840px) {
+    .content {
+      width: 100%; } }
+  @media (max-width: 400px) {
+    .content {
+      padding: 0 5px; } }
+
 #header #content-header {
   background-repeat: no-repeat;
   background-size: cover;
@@ -342,32 +364,13 @@ input[type="submit"] {
       left: 0;
       text-align: left; } }
 
-#main-wrapper {
-  margin: 0 auto; }
-
-#content {
-  padding: 10px 0; }
-  @media (max-width: 840px) {
-    #content {
-      padding: 0; } }
-
-.content {
-  margin: 0 auto;
-  padding: 0 20px;
-  width: 90%; }
-  @media (max-width: 840px) {
-    .content {
-      width: 100%; } }
-  @media (max-width: 400px) {
-    .content {
-      padding: 0 5px; } }
-
 .contact-logos {
   margin: 0 auto;
   text-align: center; }
   .contact-logos i {
     padding: 5px 20px 20px; }
 
+/*** Front Page ***/
 .front .websites-block {
   display: block;
   color: #FFF;
@@ -606,12 +609,7 @@ input[type="submit"] {
     display: block;
     margin: 35px auto 0; }
 
-.block-button-wrapper {
-  position: absolute;
-  left: 0;
-  bottom: 50px;
-  width: 100%; }
-
+/** Footer **/
 #footer {
   background: #333;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b2bd9+0,5a2b7d+100&amp;0.8+0,0.8+100 */
@@ -656,5 +654,7 @@ input[type="submit"] {
     #footer #block-user-login .form-actions input {
       padding: 8px 10px;
       font-size: 0.5em; }
+
+/** Photo Gallery & State Capitols Page **/
 
 /*# sourceMappingURL=style.css.map */

@@ -55,7 +55,7 @@
       <div class="content"<?php print $content_attributes; ?>>
         <?php print $content ?>
           <div class="block-button-wrapper">
-              <form action="/photography">
+              <form action="/photo-gallery">
                   <input type="submit" value="View Gallery">
               </form>
           </div>
