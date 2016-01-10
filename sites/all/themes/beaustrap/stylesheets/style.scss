@@ -469,4 +469,20 @@ input[type="submit"] {
 
 /** Photo Gallery & State Capitols Page **/
 
+.view-photo-gallery, .view-state-capitols {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  .views-row {
+    display: inline-table;
+    padding: 10px;
+    position: relative;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+    @media (max-width: 560px) {
+      padding: 5px;
+    }
+  }
+}
+
 
