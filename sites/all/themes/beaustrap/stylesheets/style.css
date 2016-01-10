@@ -634,6 +634,9 @@ input[type="submit"] {
     .front .webform-client-form-140 input.webform-submit:hover {
       background-color: #0080d9;
       color: #FFF; }
+  .front .webform-client-form-140 .field-prefix {
+    font-family: 'Merriweather', serif;
+    font-weight: 600; }
   .front .webform-client-form-140 .captcha {
     background: none;
     border: none;
@@ -641,8 +644,6 @@ input[type="submit"] {
     padding: 0; }
     .front .webform-client-form-140 .captcha legend, .front .webform-client-form-140 .captcha .fieldset-description {
       display: none; }
-    .front .webform-client-form-140 .captcha span.field-prefix {
-      font-family: 'Montserrat', serif; }
 
 /** Footer **/
 #footer {

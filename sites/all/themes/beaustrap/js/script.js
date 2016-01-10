@@ -41,9 +41,11 @@
     };
 
     // Change label on Contact Form CAPTCHA test
-    Drupal.behaviors.skynetCheck = {
+    Drupal.behaviors.captchaCheck = {
         attach: function (context, settings) {
-            $('.webform-client-form-140 .captcha label').text('Are you Skynet???');
+            var skynetTest = '<span class="field-prefix">Are you Skynet? <span class="form-required" title="This field is required.">*</span></span>';
+            $('.webform-client-form-140 .captcha').before(skynetTest);
+
         }
     };
 

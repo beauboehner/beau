@@ -458,6 +458,10 @@ input[type="submit"] {
       color: #FFF;
     }
   }
+  .field-prefix {
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+  }
   .captcha {
     background: none;
     border: none;
@@ -465,9 +469,6 @@ input[type="submit"] {
     padding: 0;
     legend, .fieldset-description {
       display: none;
-    }
-    span.field-prefix {
-      font-family: 'Montserrat', serif;
     }
   }
 }
