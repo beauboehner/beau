@@ -56,13 +56,6 @@
         }
     };
 
-    // Add arrow to breadcrumb and change text
-    Drupal.behaviors.homeButton = {
-        attach: function (context, settings) {
-            $('.breadcrumb a').before('<i class="fa fa-arrow-circle-o-left fa-2x"></i>').text('Back To Home');
-        }
-    };
-
     // Tack on Europe "Final Countdown" video to Fall Countdown page
     Drupal.behaviors.fallEurope = {
         attach: function (context, settings) {
@@ -74,6 +67,3 @@
     /**** Nothing Below Here ****/
 
 })(jQuery, Drupal);
-//<i class="fa fa-arrow-circle-o-left"></i>
-
-
