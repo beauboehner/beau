@@ -649,7 +649,7 @@ input[type="submit"] {
       display: none; }
     @media (max-width: 400px) {
       .front .webform-client-form-140 .captcha iframe {
-        transform: scale(0.75);
+        transform: scale(0.7);
         transform-origin: left top; } }
 
 /** Footer **/
