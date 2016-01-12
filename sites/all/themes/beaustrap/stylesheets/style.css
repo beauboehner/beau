@@ -641,7 +641,6 @@ input[type="submit"] {
     font-family: 'Merriweather', serif;
     font-weight: 600; }
   .front .webform-client-form-140 .captcha {
-    display: none;
     background: none;
     border: none;
     margin: 0;
