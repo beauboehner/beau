@@ -474,10 +474,13 @@ input[type="submit"] {
       display: none;
     }
   }
-  @media (max-width: 450px) {
+}
+@media (max-width: 450px) {
+  #block-webform-client-block-140 {
     display: none;
   }
 }
+
 
 /** Footer **/
 
