@@ -466,7 +466,6 @@ input[type="submit"] {
     font-weight: 600;
   }
   .captcha {
-    display: none;
     background: none;
     border: none;
     margin: 0;
@@ -476,7 +475,7 @@ input[type="submit"] {
     }
     @media (max-width: 400px) {
       iframe {
-        transform: scale(0.85);
+        transform: scale(0.75);
         transform-origin: left top;
       }
     }
