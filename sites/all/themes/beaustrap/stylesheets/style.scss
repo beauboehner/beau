@@ -521,6 +521,16 @@ input[type="submit"] {
   }
 }
 
+.accolades-block {
+  float: right;
+  text-align: right;
+  h2, h3 {
+    color: #FFF;
+  }
+  blockquote {
+  }
+}
+
 
 /** Photo Gallery & State Capitols Page **/
 .view-photo-gallery, .view-state-capitols {

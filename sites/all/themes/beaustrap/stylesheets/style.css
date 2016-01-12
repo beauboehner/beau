@@ -697,6 +697,12 @@ input[type="submit"] {
       padding: 8px 10px;
       font-size: 0.5em; }
 
+.accolades-block {
+  float: right;
+  text-align: right; }
+  .accolades-block h2, .accolades-block h3 {
+    color: #FFF; }
+
 /** Photo Gallery & State Capitols Page **/
 .view-photo-gallery, .view-state-capitols {
   display: block;
