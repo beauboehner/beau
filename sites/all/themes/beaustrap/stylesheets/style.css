@@ -649,7 +649,7 @@ input[type="submit"] {
       display: none; }
     @media (max-width: 400px) {
       .front .webform-client-form-140 .captcha iframe {
-        transform: scale(0.65);
+        transform: scale(0.85);
         transform-origin: left top; } }
 
 /** Footer **/
@@ -725,10 +725,6 @@ body.page-node-117 .field-name-body,
 body.page-node-117 .field-type-field-countdown {
   text-align: center;
   font-size: 24px; }
-  @media (max-width: 450px) {
-    body.page-node-117 .field-name-body .countdownHolder,
-    body.page-node-117 .field-type-field-countdown .countdownHolder {
-      font-size: 18px; } }
 body.page-node-117 .europe-vid {
   width: 100%;
   text-align: center; }
