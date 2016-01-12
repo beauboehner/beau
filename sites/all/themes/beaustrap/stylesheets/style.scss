@@ -473,12 +473,9 @@ input[type="submit"] {
     legend, .fieldset-description {
       display: none;
     }
-    @media (max-width: 400px) {
-      iframe {
-        transform: scale(0.75);
-        transform-origin: left top;
-      }
-    }
+  }
+  @media (max-width: 450px) {
+    display: none;
   }
 }
 
@@ -559,14 +556,8 @@ body.page-node-117 {
   .europe-vid {
     width: 100%;
     text-align: center;
-    //@media (max-width: 450px) {
-      //display: none;
-    //}
-    @media (max-width: 400px) {
-      iframe {
-        transform: scale(0.70);
-        transform-origin: left top;
-      }
+    @media (max-width: 450px) {
+      display: none;
     }
   }
 }

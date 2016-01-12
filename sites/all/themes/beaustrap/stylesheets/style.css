@@ -647,10 +647,9 @@ input[type="submit"] {
     padding: 0; }
     .front .webform-client-form-140 .captcha legend, .front .webform-client-form-140 .captcha .fieldset-description {
       display: none; }
-    @media (max-width: 400px) {
-      .front .webform-client-form-140 .captcha iframe {
-        transform: scale(0.75);
-        transform-origin: left top; } }
+  @media (max-width: 450px) {
+    .front .webform-client-form-140 {
+      display: none; } }
 
 /** Footer **/
 #footer {
@@ -728,9 +727,8 @@ body.page-node-117 .field-type-field-countdown {
 body.page-node-117 .europe-vid {
   width: 100%;
   text-align: center; }
-  @media (max-width: 400px) {
-    body.page-node-117 .europe-vid iframe {
-      transform: scale(0.7);
-      transform-origin: left top; } }
+  @media (max-width: 450px) {
+    body.page-node-117 .europe-vid {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */
