@@ -473,6 +473,12 @@ input[type="submit"] {
     legend, .fieldset-description {
       display: none;
     }
+    @media (max-width: 400px) {
+      iframe {
+        transform: scale(0.85);
+        transform-origin: left top;
+      }
+    }
   }
 }
 
@@ -549,17 +555,18 @@ body.page-node-117 {
   .field-type-field-countdown {
     text-align: center;
     font-size: 24px;
-    @media (max-width: 450px) {
-      .countdownHolder {
-        font-size: 18px;
-      }
-    }
   }
   .europe-vid {
     width: 100%;
     text-align: center;
-    @media (max-width: 450px) {
-      display: none;
+    //@media (max-width: 450px) {
+      //display: none;
+    //}
+    @media (max-width: 400px) {
+      iframe {
+        transform: scale(0.70);
+        transform-origin: left top;
+      }
     }
   }
 }
