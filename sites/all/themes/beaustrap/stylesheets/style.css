@@ -714,6 +714,8 @@ input[type="submit"] {
     position: relative;
     font-family: 'Merriweather', sans-serif;
     text-align: center; }
+    .view-photo-gallery .views-row .views-field-field-credit, .view-state-capitols .views-row .views-field-field-credit {
+      font-size: 12px; }
     @media (max-width: 560px) {
       .view-photo-gallery .views-row, .view-state-capitols .views-row {
         padding: 20px 5px; } }

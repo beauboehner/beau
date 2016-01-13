@@ -543,6 +543,9 @@ input[type="submit"] {
     position: relative;
     font-family: 'Merriweather', sans-serif;
     text-align: center;
+    .views-field-field-credit {
+      font-size: 12px;
+    }
     @media (max-width: 560px) {
       padding: 20px 5px;
     }
