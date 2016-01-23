@@ -17,6 +17,7 @@
         attach: function (context, settings) {
             var contactAppend = '<div class="contact-logos">' +
                 '<a href="https://www.linkedin.com/in/beauboehner" target="_blank"><i class="fa fa-linkedin fa-4x"></i></a>' +
+                '<a href="https://www.codeschool.com/users/beauboehner" target="_blank"><i class="fa fa-code fa-4x"></i></a>' +
                 '<a href="https://www.drupal.org/u/beaukc" target="_blank"><i class="fa fa-drupal fa-4x"></i></a>' +
                 '<a href="https://github.com/beauboehner" target="_blank"><i class="fa fa-github fa-4x"></i></a>' +
                 '</div>';
