@@ -51,12 +51,14 @@
     };
 
     // Change Text on Contact Form button
+ /*
     Drupal.behaviors.contactSubmit = {
         attach: function (context, settings) {
             $('.webform-client-form-140 input.webform-submit').prop('value', 'BOOSH!');
         }
     };
-
+*/
+ 
     // Tack on Europe "Final Countdown" video to Fall Countdown page
     Drupal.behaviors.fallEurope = {
         attach: function (context, settings) {
